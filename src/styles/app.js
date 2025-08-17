@@ -1,16 +1,17 @@
 import styled from 'styled-components';
 
 export const StickerList = styled.div`
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap:20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
 `;
 
 export const StickerItem = styled.li`
     cursor: pointer;
-    width: 300px;
-    height: 300px;
+    width:400px;
+    height: 400px;
     border: 2px solid #ccc;
     border-radius: 10px;
     &:hover {
@@ -20,7 +21,7 @@ export const StickerItem = styled.li`
         height: 100%;
         object-fit: cover;
         }
-    `;
+`;
 export const Choice = styled.div`
     display: flex;
     flex-direction: column;
@@ -30,4 +31,4 @@ export const Choice = styled.div`
         font-weight: bold;
         color: #fff;
     }
-    `;
+`;
